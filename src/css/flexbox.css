@@ -1,0 +1,45 @@
+.aside-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.aside-container > :last-child {
+  margin-top: auto;
+}
+
+.aside-header-container {
+  margin-bottom: 24px;
+}
+
+.aside-header-list-container {
+  display: flex;
+  align-items: center;
+  padding: 18px 24px;
+}
+
+.aside-nav-container {
+  margin-bottom: 24px;
+}
+
+.aside-nav-list-container {
+  display: flex;
+  flex-direction: column;
+  padding: 0 24px;
+  gap: 24px;
+}
+
+.aside-footer-container {
+  padding: 0 24px;
+}
+
+.aside-footer-contacts-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.aside-footer-contacts-options-container {
+  display: flex;
+  gap: 16px;
+}
