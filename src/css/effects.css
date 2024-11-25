@@ -2,3 +2,24 @@
   box-shadow: 16px 0px 52px rgba(14, 24, 80, 0.2),
     -2px 0px 4px rgba(69, 79, 126, 0.02);
 }
+
+.active-lang {
+  color: var(--font-second-color);
+}
+
+.aside-nav-list__item {
+  position: relative;
+}
+
+.aside-nav-list__item-btn:hover {
+  color: var(--font-second-color);
+}
+
+.aside-nav-list__item-btn:hover::before {
+  content: "";
+  position: absolute;
+  background-image: url(/src/assets/images/highlight.svg);
+  width: 4px;
+  height: 32px;
+  transform: translateX(-24px);
+}
