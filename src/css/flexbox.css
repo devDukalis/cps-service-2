@@ -15,6 +15,7 @@
 .aside-header-list-container {
   display: flex;
   align-items: center;
+  justify-content: center;
   padding: 18px 24px;
 }
 

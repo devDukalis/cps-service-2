@@ -11,6 +11,10 @@
   margin-right: 75px;
 }
 
+.aside-header-list__item-btn {
+  display: flex;
+}
+
 .aside-nav-list__item {
   height: 32px;
   display: flex;
