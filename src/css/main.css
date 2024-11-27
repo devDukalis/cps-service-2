@@ -1,6 +1,7 @@
 .aside {
   width: 320px;
   height: 100%;
+  overflow: auto;
 }
 
 .aside-header-list-container > :nth-child(1) {
