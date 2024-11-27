@@ -21,7 +21,7 @@
 .aside-nav-list__item-btn:hover::before {
   content: "";
   position: absolute;
-  background-image: url(src/assets/images/highlight.svg);
+  background-image: url(/src/assets/images/highlight.svg);
   width: 4px;
   height: 32px;
   transform: translateX(-24px);
