@@ -47,3 +47,25 @@
 .aside-header-list__item-link-img:hover {
   filter: saturate(250%);
 }
+
+/* HOVERING WITH LINK SHIFTED TO THE RIGHT */
+.aside-footer-contacts-mail__link,
+.aside-footer-contacts-phone__link {
+  transition: transform 0.3s ease-in-out;
+  display: inline-block;
+}
+
+.aside-footer-contacts-mail__link:hover,
+.aside-footer-contacts-phone__link:hover {
+  transform: translateX(10px);
+}
+
+/* HOVERING WITH LINK SCALED AND SHIFTED TO THE TOP */
+.aside-footer-contacts-lang__link {
+  transition: transform 0.3s ease-in-out;
+  display: inline-block;
+}
+
+.aside-footer-contacts-lang__link:hover {
+  transform: scale(1.2) translateY(-10px);
+}
