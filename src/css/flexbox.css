@@ -1,11 +1,13 @@
 .aside-container {
   display: flex;
   flex-direction: column;
-  height: 100vh;
   position: fixed;
   top: 0;
   left: 0;
   z-index: 100;
+  /* Учитываем высоту видимой области bottom/top панелей*/
+  height: calc(100vh - env(safe-area-inset-bottom) -env(safe-area-inset-top));
+  overflow-y: auto;
 }
 
 .aside-container > :last-child {
