@@ -1,9 +1,3 @@
-html,
-body {
-  height: 100%;
-  margin: 0;
-}
-
 .list-reset {
   list-style-type: none;
   padding: 0;
